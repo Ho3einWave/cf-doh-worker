@@ -26,7 +26,7 @@
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 	 */
 	"vars": {
-		"path": "",
+		"path": "/",
 		"doh": "https://cloudflare-dns.com/dns-query",
 		"dohjson": "https://cloudflare-dns.com/dns-query",
 		"contype": "application/dns-message",
