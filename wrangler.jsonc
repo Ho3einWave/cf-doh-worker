@@ -27,8 +27,8 @@
 	 */
 	"vars": {
 		"path": "",
-		"doh": "https://doh.hoseinwave.ir/dns-query",
-		"dohjson": "https://doh.hoseinwave.ir/dns-query",
+		"doh": "https://cloudflare-dns.com/dns-query",
+		"dohjson": "https://cloudflare-dns.com/dns-query",
 		"contype": "application/dns-message",
 		"jsontype": "application/dns-json"
 	}
