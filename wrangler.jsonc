@@ -9,7 +9,7 @@
 	"compatibility_date": "2025-11-20",
 	"observability": {
 		"enabled": true
-	}
+	},
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
@@ -25,7 +25,13 @@
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 	 */
-	// "vars": { "MY_VARIABLE": "production_value" }
+	"vars": {
+		"path": "",
+		"doh": "https://doh.hoseinwave.ir/dns-query",
+		"dohjson": "https://doh.hoseinwave.ir/dns-query",
+		"contype": "application/dns-message",
+		"jsontype": "application/dns-json"
+	}
 	/**
 	 * Note: Use secrets to store sensitive data.
 	 * https://developers.cloudflare.com/workers/configuration/secrets/
